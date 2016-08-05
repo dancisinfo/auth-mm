@@ -1,27 +1,20 @@
-ci_weixin
-=========
+# auth-mm (ci_weixin)
+基於 CodeIgniter (CI) framework 的微信模組，含：
 
-基于php ci (codeigniter) 框架 的微信 模块，包含 1、微信事件响应 2、第三方登录授权
+1. 微信事件響應；
+2. 第三方登入授權。
 
-安装步骤
+## 安裝
+步驟：
+- `application/config/constants.php` 增加常量定義：
+``` PHP
+define('TOKEN', 'yourToken'); // 'yourToken' such as 'QQ83989686'
+define('WX_APP_ID', 'yourWeChatAppId'); // 'yourWeChatAppId' such as 'wx36883db1eX0def32'
+define('WX_APP_SECRET', 'yourWeChatAppSecret'); // 'yourWeChatAppSecret' such as '2298f3aec9d1c5c96f7c3X96623c5b2e'
+```
 
-1、application/config/constants.php
+- 配置相應的資料庫資訊，位於 `application/config/database.php`；
+- 將 `src` 中的內容部署至項目中。
 
-增加常量定义
-
-
-define("TOKEN", "QQ83989686");
-
-define("WX_APP_ID",'wx36883db1eX0def32');
-
-define('WX_APP_SECRET','2298f3aec9d1c5c96f7c3X96623c5b2e');
-
-
-2、配置好对应的数据库 信息
-
-application/config/database.php
-
-3、讲对应的源码 部署到 您 的 CI (codeigniter)目录里面
-
-
-@sxf02615@163.com
+## 原作
+`sxf02615@163.com`
