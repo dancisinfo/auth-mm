@@ -1,8 +1,10 @@
 <?php
-/***
-**  QQ 83989686
-** mail: sxf02615@163.com
-**/
+/**
+ * @author QQ 83989686 (sxf02615@163.com)
+ * @author McDanci
+ */
+namespace mcdanci\auth_mm;
+
 class Wxl
 {
 	private $ctrl	= null;

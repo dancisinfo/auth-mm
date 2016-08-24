@@ -1,4 +1,11 @@
-<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+/**
+ * @author QQ 83989686 (sxf02615@163.com)
+ * @author McDanci
+ */
+namespace mcdanci\auth_mm;
+
+if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 class Wx extends CI_Controller
 {
